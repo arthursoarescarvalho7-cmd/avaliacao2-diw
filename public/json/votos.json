@@ -1,0 +1,23 @@
+{
+  "participantes": [
+    {
+      "id": 1,
+      "nome": "Daniel Erthal",
+      "foto": "img/daniel.jpg",
+      "naRoca": true
+    },
+    {
+      "id": 2,
+      "nome": "Giovanna Gold",
+      "foto": "img/giovanna.jpg",
+      "naRoca": true
+    },
+    {
+      "id": 3,
+      "nome": "Thaide",
+      "foto": "img/thaide.jpg",
+      "naRoca": true
+    }
+  ],
+  "votos": []
+}

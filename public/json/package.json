@@ -1,0 +1,9 @@
+{
+  "name": "votacao-fazenda",
+  "version": "1.0.0",
+  "description": "AV2 DIW",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server --watch db.json --static public --port 3000"
+  }
+}

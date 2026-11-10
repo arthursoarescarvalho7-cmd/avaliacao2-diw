@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Votação 2026</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-md navbar-dark">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="img/logo.png" alt="Logo" width="50">
+                    Votação 2026
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+
+                    <span class="navbar-toggler-icon"></span>
+
+                </button>
+                <div class="collapse navbar-collapse" id="menu">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">
+                                Início
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="votacao.html">
+                                Votar
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="resultado.html">
+                                Resultado
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <main class="container mt-5">
+            <h1>Quem você quer eliminar?</h1>
+            <p class="mb-4">
+                Cada clique conta um voto para tirar o peão da fazenda.
+            </p>
+            <div id="mensagem"></div>
+            <div id="cardsRoca"
+                class="row row-cols-1 row-cols-md-3 g-4 mb-5">
+            </div>
+            <h2 class="mb-2">
+                Demais peões
+            </h2>
+            <p>
+                Fora da roça nesta semana, não podem receber votos.
+            </p>
+            <div id="cardsPeoes"
+                class="row row-cols-2 row-cols-md-4 row-cols-lg-6 g-3">
+            </div>
+        </main>
+        <footer>
+            DIAW 2026, PUC Minas
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="js/api.js"></script>
+    </body>
+</html>
